@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualExtension</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        header {
+            background-color: #00579c; /* Azul mais forte */
+            padding: 20px;
+            text-align: left;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            border-top-left-radius: 15px; /* Ajuste a curvatura conforme necessário */
+            border-top-right-radius: 15px; /* Ajuste a curvatura conforme necessário */
+        }
+
+        header img {
+            width: 30px; /* Ajuste o tamanho conforme necessário */
+            height: 30px; /* Ajuste o tamanho conforme necessário */
+            margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+        }
+
+        header h1 {
+            font-family: 'Staatliches', sans-serif;
+            font-size: 36px;
+            margin: 0;
+            color: #fff; /* Branco para o texto do banner */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section > div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centralizar o texto */
+        }
+
+        section h2, section p, section li {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+        }
+
+        .install-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00579c; /* Correspondendo ao azul do banner */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .step-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .step {
+            width: 30%;
+            text-align: center;
+        }
+
+        .step-circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: #00579c; /* Correspondendo ao azul do banner */
+            color: #fff;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: #00579c; /* Correspondendo ao azul do banner */
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="icone.png" alt="Ícone">
+        <h1>VisualExtension</h1>
+    </header>
+
+    <section>
+        <div>
+            <h2>VisualExtension</h2>
+            <p>VisualExtension é uma extensão desenvolvida para o Google Chrome com a finalidade de adicionar um filtro de cores a sua página do Google, de acordo com o seu tipo de Daltonismo, te dando mais conforto ao navegar pela internet.</p>
+        </div>
+
+        <div>
+            <h2>Faça o Download</h2>
+            <a class="install-button" href="link_para_sua_extensao" target="_blank">Instalar Extensão</a>
+        </div>
+
+        <div>
+            <h2>Como Instalar</h2>
+            <div class="step-container">
+                <div class="step">
+                    <div class="step-circle">1</div>
+                    <p>Passo 1: Descreva aqui as instruções para o passo 1.</p>
+                </div>
+                <div class="step">
+                    <div class="step-circle">2</div>
+                    <p>Passo 2: Descreva aqui as instruções para o passo 2.</p>
+                </div>
+                <div class="step">
+                    <div class="step-circle">3</div>
+                    <p>Passo 3: Descreva aqui as instruções para o passo 3.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Recursos Principais</h2>
+            <p>A extensão conta com uma tabela de seleção onde você seleciona o tipo de daltonismo que deseje que o filtro seja aplicado</p>
+        </div>
+
+        <div>
+            <h2>Saiba mais sobre daltonismo no podcast abaixo!</h2>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/episode/0DVDzjKd2aE4gYaYKCCogt?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 | Desenvolvido por João Guilherme Gonçalves Machado</p>
+    </footer>
+</body>
+
+</html>
+           
